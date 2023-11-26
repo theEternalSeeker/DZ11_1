@@ -16,4 +16,4 @@ def profile(id):
     return render_template('profile.html', candidate=candidate)
 
 
-app.run(debug=True)
+app.run()

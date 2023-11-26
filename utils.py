@@ -11,7 +11,14 @@ def load_candidates_from_json(path):
 def get_candidate(candidate_id):
     for candidate in __data:
         if candidate['id'] == candidate_id:
-            return __data[candidate]
+            return {
+                "name" : candidate['name'],
+                "picture" : candidate['picture'],
+                "position" : candidate['position'],
+                "gender" : candidate['gender'],
+                "age" : candidate['age'],
+                "skills" : candidate['skills'],
+            }
     return {"unknown":"неизвестный кандидат"}
 
 def get_candidates_by_name(candidate_name):
