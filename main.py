@@ -1,13 +1,14 @@
-from flask import Flask
-import utils
+from flask import Flask, render_template
+from utils import load_candidates_from_json
+
 
 app = Flask(__name__)
-candidates = utils.load_candidates_from_json()
+data = load_candidates_from_json('candidates.json')
 
-@app.route("/")
-def page_index():
-    str_candidates = '<pre>'
-    for candidate in candidates.values():
-        str_candidates += f"{candidate['name']}\n{candidate['position']}\n{candidate['skills']}\n"
-    str_candidates += '</pre>'
-    return str_candidates
+
+@app.route('/')
+def index():
+    return render_template('index.html', candidates=data)
+
+
+app.run(debug=True)

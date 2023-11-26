@@ -1,65 +1,65 @@
 [
   {
     "id": 1,
-    "name": "Adela Hendricks",
-    "picture": "https://picsum.photos/200",
+    "name": "Kesha",
+    "picture": "img/kesha.png",
     "position": "Go разработчик",
-    "gender": "female",
-    "age": 40,
+    "gender": "male",
+    "age": 12,
     "skills": "go, python"
   },
   {
     "id": 2,
-    "name": "Sheri Torres",
-    "picture": "https://picsum.photos/200",
+    "name": "Lisichka",
+    "picture": "img/Лисичка.png",
     "position": "Delphi developer",
     "gender": "female",
-    "age": 26,
+    "age": 13,
     "skills": "Delphi, pascal, fortran, basic"
   },
   {
     "id": 3,
-    "name": "Burt Stein",
-    "picture": "https://picsum.photos/200",
+    "name": "Tuchka",
+    "picture": "img/тучка.jpeg",
     "position": "Team lead",
     "gender": "male",
-    "age": 33,
+    "age": 13,
     "skills": "делегирование, пользоваться календарем, обсуждать важные вопросы"
   },
   {
     "id": 4,
-    "name": "Bauer Adkins",
-    "picture": "https://picsum.photos/200",
+    "name": "Cyipa",
+    "picture": "img/цыпа.jpg",
     "position": "CTO",
     "gender": "male",
-    "age": 37,
+    "age": 7,
     "skills": "very important face"
   },
   {
     "id": 5,
-    "name": "Day Holloway",
-    "picture": "https://picsum.photos/200",
+    "name": "Sanya",
+    "picture": "img/саня.jpg",
     "position": "HR manager",
     "gender": "male",
-    "age": 35,
+    "age": 12,
     "skills": "LinkedIn, telegram, spam, spam, spam"
   },
   {
     "id": 6,
-    "name": "Austin Cochran",
-    "picture": "https://picsum.photos/200",
+    "name": "Sonya",
+    "picture": "img/соня.jpg",
     "position": "python-develop",
-    "gender": "male",
-    "age": 26,
+    "gender": "female",
+    "age": 12,
     "skills": "python, html"
   },
   {
     "id": 7,
-    "name": "Sheree Love",
-    "picture": "https://picsum.photos/200",
+    "name": "Valya",
+    "picture": "img/Valya.jpg",
     "position": "Django developer",
-    "gender": "female",
-    "age": 33,
+    "gender": "male",
+    "age": 14,
     "skills": "Python, Django, flask"
   }
 ]
