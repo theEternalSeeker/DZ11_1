@@ -9,7 +9,10 @@ def load_candidates_from_json(path):
 
 
 def get_candidate(candidate_id):
-    pass
+    for candidate in __data:
+        if candidate['id'] == candidate_id:
+            return __data[candidate]
+    return {"unknown":"неизвестный кандидат"}
 
 def get_candidates_by_name(candidate_name):
     pass
