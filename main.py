@@ -15,5 +15,12 @@ def profile(id):
     candidate = get_candidate(id)
     return render_template('profile.html', candidate=candidate)
 
+@app.route('/search/<name>')
+def search(name):
+    candidates = get_candidates_by_name(name)
+    return render_template('search.html', candidates=candidates, candidates_len=len(candidates))
 
-app.run()
+
+app.run(debug=True)
+
+

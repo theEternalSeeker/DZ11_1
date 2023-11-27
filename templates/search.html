@@ -2,9 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Найти кандидата</title>
 </head>
 <body>
-
+    <h1>Найдено кандидатов {{candidates_len}}</h1>
+    {% for candidate in candidates %}
+        <p><a href="/candidate/{{ candidate.id }}"> {{ candidate.name }}</a></p>
+    {% endfor %}
 </body>
 </html>

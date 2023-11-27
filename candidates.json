@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Kesha",
-    "picture": "img/kesha.png",
+    "picture": "https://kubikroom.ru/image/cache/catalog/import_files/ee/eebbd0252cbd11ec911e00d861acbbc3_eebbd0292cbd11ec911e00d861acbbc3-1000x1000.jpg",
     "position": "Go разработчик",
     "gender": "male",
     "age": 12,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Lisichka",
-    "picture": "C://Users/CocoJambo/PycharmProjects/DZ11_/img/Лисичка.jpg",
+    "picture": "https://multi-boom.ru/upload/iblock/d3c/d3c40a476c985b4ca6e307a7d77f1332.jpeg",
     "position": "Delphi developer",
     "gender": "female",
     "age": 13,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Tuchka",
-    "picture": "img/тучка.jpeg",
+    "picture": "https://ovdi.ru/upload/iblock/a04/a044578d5c37959d7b1ef22428f1ecb0.jpg",
     "position": "Team lead",
     "gender": "male",
     "age": 13,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Cyipa",
-    "picture": "img/цыпа.jpg",
+    "picture": "https://cdn2.static1-sima-land.com/items/3879653/1/700-nw.jpg",
     "position": "CTO",
     "gender": "male",
     "age": 7,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Sanya",
-    "picture": "img/саня.jpg",
+    "picture": "https://babyimages.ru/kartinki/mi-mi-mishki-kartinka-05.jpg",
     "position": "HR manager",
     "gender": "male",
     "age": 12,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Sonya",
-    "picture": "img/соня.jpg",
+    "picture": "https://babyimages.ru/kartinki/mi-mi-mishki-kartinka-04.jpg",
     "position": "python-develop",
     "gender": "female",
     "age": 12,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Valya",
-    "picture": "img/Valya.jpg",
+    "picture": "http://images-s.kinorium.com/movie/promo/1540301/w1500_51117046.jpg",
     "position": "Django developer",
     "gender": "male",
     "age": 14,
