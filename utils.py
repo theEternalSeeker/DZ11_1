@@ -19,10 +19,15 @@ def get_candidate(candidate_id):
                 "age" : candidate['age'],
                 "skills" : candidate['skills'],
             }
-    return {"unknown":"неизвестный кандидат"}
+    return {"unknown":"Неизвестный кандидат"}
 
 def get_candidates_by_name(candidate_name):
     return [candidate for candidate in __data if candidate_name.lower() in candidate['name'].lower()] #списковое включение (семантичкский сахар)
 
 def get_candidates_by_skill(skill_name):
-    pass
+    candidates = []
+    for candidate in __data:
+        skills = candidate["skills"].lower().split(", ")
+        if skill_name.lower() in skills:
+            candidates.append(candidate)
+    return candidates

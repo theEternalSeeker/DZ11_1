@@ -5,13 +5,18 @@
     <title>Профиль кандидата - {{candidate.name}}</title>
 </head>
 <body>
-    <h1>{{candidate.name}}</h1>
-    <p>Позиция - {{candidate.position}}</p>
-    <p>Пол - {{candidate.gender}}</p>
-    <p>{{candidate.age}} лет</p>
-    <p>Навыки - {{candidate.skills}}</p>
-    <p>{{candidate.picture}}</p>
-    <p><img src="{{candidate.picture}}" width=300/></p>
-
+    {% if 'unknown' in candidate.keys() %}
+        <h1>{{candidate.unknown}}</h1>
+    {% else %}
+        <h1>{{candidate.name}}</h1>
+        <div>
+            <p>Позиция - {{candidate.position}}</p>
+            <p>Пол - {{candidate.gender}}</p>
+            <p>{{candidate.age}} лет</p>
+            <p>Навыки - {{candidate.skills}}</p>
+            <p>{{candidate.picture}}</p>
+            <p><img src="{{candidate.picture}}" width=300/></p>
+        </div>
+    {% endif %}
 </body>
 </html>
